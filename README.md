@@ -14,12 +14,13 @@
     - Open Terminal
     - Set the working directory in you computer: using below command in terminal
     ```python
-        cd /home/dci-student/DCI/P23_E09/Databases/mytenanttracker/my_tenant_db/src/flat_file/sql files
+        cd desktop/my_tenant_db/src
     ```
 
     - Run the below command in terminal to switch to postgres, and to create the database and add data into tables to use the program. 
 
     ```sql
+    cd src/flat_file/sql files
     psql -U postgres
     \i flat_details.sql
     \i flat_owner_details.sql
