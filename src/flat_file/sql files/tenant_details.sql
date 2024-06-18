@@ -1,4 +1,4 @@
-\c my_assessment_db sayli_user
+\c my_assessment_db postgres
 
 CREATE TABLE private_data.tenant_details(
     TenantID CHAR(5) REFERENCES rent_details(TenantID),

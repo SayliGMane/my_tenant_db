@@ -1,9 +1,9 @@
 CREATE DATABASE my_assessment_db;
 
-CREATE ROLE sayli_user WITH PASSWORD 'DCI1234!';
+-- CREATE ROLE postgres WITH PASSWORD 'postgres';
 
-GRANT ALL PRIVILEGES ON DATABASE my_assessment_db TO sayli_user;
-\c my_assessment_db sayli_user
+-- GRANT ALL PRIVILEGES ON DATABASE my_assessment_db TO sayli_user;
+-- \c my_assessment_db sayli_user
 
 CREATE SCHEMA private_data;
 
